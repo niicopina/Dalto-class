@@ -33,3 +33,25 @@ li:nth-child(2n){
     color: rgb(93, 166, 93);
     background-color: #ccc;
 }
+/*Seleccionar el div en caso de estar vacio*/
+div {
+    border: 2px solid black;
+}
+div:empty {
+    border: none;
+}
+/*Si cambia el estado o valor podemos modificar elemento*/
+input[type="checkbox"]{
+    margin: 10px;
+}
+input[type="checkbox"]:checked{
+    margin: 0;
+}
+/*Seleccionar enlaces NO visitados*/
+a:link{
+    color: red;
+}
+/*Seleccionar enlaces visitados*/
+a:visited{
+    color: green;
+}
