@@ -1,5 +1,4 @@
 h1 {
-    color: #48e;
     font-family: sans-serif;
     margin: 30px;
 }
@@ -54,4 +53,28 @@ a:link{
 /*Seleccionar enlaces visitados*/
 a:visited{
     color: green;
+}
+/*Para mostrar inputs invalidos y validos por ejemplo emails
+input:invalid {
+    color: red;
+}
+input:valid {
+    color: green;
+}
+*/
+/*Para seleccionar varias clases dentro de un contenedor
+    es importante dejar el espacio entre section y los : */
+section :is(.elemento1, .elemento2, .elemento3){
+    color: blue;
+}
+
+/*Para modificar el label para no cambiar el estilo del input podemos usar*/
+label{
+    font-weight: bold;
+}
+label:has(input:valid){
+    color: green;
+}
+label:has(input:invalid){
+    color: red;
 }
