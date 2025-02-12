@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.contenedor {
+    padding: 50px;
+    background-color: blue;
+    position: relative;
+}
+.box {
+    height: 140px;
+    width: 100px;
+    background-color: #fff;
+    position: fixed;
+    right: 0;
+    border: 3px solid #000;
+    border-right: 0;
+    box-shadow: 0 0 40px #0009;
+}
+h2 {
+    font-size: 18px;
+    margin: 0;
+}
+p {
+    font-size: 14px;
+    margin: 0;
+}
