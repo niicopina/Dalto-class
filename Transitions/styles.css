@@ -1,20 +1,27 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    background-color: #ccc;
 }
 .box {
-    width: 200px;
-    height: 200px;
-    background-color: red;
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    position: relative;
+    left: 0;
+    border: 2px solid #000;
     margin: auto;
     margin-top: 50px;
-    font-size: 60px;
-    font-weight: bold;
-    text-align: center;
-    transition-property: background-color, color;
-    transition-duration: 1s;
+    overflow: auto;
 }
-.box:hover {
+/*.box:hover {
     background-color: #faa;
     color: #fff;
+}*/
+img {
+    width: 400px;
+    height: 600px;
+    border: 2px solid #000;
+    margin: 50px;
+    object-fit: contain;
 }
